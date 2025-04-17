@@ -25,7 +25,7 @@ Implementations of the paper _Instance-guided Cartoon Editing with a Large-scale
 ### Install Dependencies
 
 ```bash
-conda env create -f animeins.yaml
+conda env create -f conda_env.yaml
 conda activate animeins
 pip uninstall mmcv -y
 pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.1/index.html
